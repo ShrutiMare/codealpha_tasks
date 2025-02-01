@@ -1,0 +1,27 @@
+body{
+    background-color: #F8F8F7;
+}
+
+.title{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 33.3136px;   
+    color: #333333;
+    padding-left: 172px;
+}
+.nav{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 14.104px;
+    font-style: normal;
+    color: #484542;  
+    padding: 1.4104px 7px;
+    text-decoration: none;
+    font-size: 14.104px;
+}
+
+#navigation{
+    padding: 19.08px 58px;
+}

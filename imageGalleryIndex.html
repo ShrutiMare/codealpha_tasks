@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/imageGalleryIndex.css">
+    <link rel="stylesheet" href="css/navigationBar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navigation">
+        <a class="nav" id="home">Home</a>
+        <a class="nav" href="about.html" >About</a>
+        <a class="nav" href="services.html">Services</a>
+        <a class="nav" href>Portfolio</a>
+        <a class="nav" href>Blog</a>
+        <a class="title">Image Gallery</a>
+    </div>
+   
+    <div class="slideContainer">
+        <div class="slides">
+            <img src="images/homePage/modernEntryway.jpg" >
+            <img src="images/homePage/beigeArtGallery.jpg" class="active">
+            <img src="images/homePage/warmCanvas.jpg" class="active">
+            <img src="images/homePage/darkBeigeGallery.jpg" class="active">
+            <img src="images/homePage/blackWhiteGallery.jpg" class="active">
+        </div>
+
+        <div class="buttons">
+            <span class="next">🡢</span>
+            <span class="prev">🡠</span>
+        </div>
+    
+        <div class="dotsContainer">
+            <div class="dot active" attr='0' onclick="switchImage(this)"></div>
+            <div class="dot" attr='1' onclick="switchImage(this)"></div>
+            <div class="dot" attr='2' onclick="switchImage(this)"></div>
+            <div class="dot" attr='3' onclick="switchImage(this)"></div>
+            <div class="dot" attr='4' onclick="switchImage(this)"></div>
+        </div>
+    </div>
+    <div class="div2"></div>
+    <div id="welcomeStatement">
+        <p>Where <i>Creativity</i> Meets <i>Inspiration</i></p>
+    </div>
+        
+        <div id="content">
+            <p class="heading">Welcome to Our Art Gallery</p>
+                <p class="innerContent">A space where creativity blossoms, emotions are eternalized, and stories are told through brushstrokes, textures, and colors. Our gallery stands as a sanctuary for artistic expression, offering an immersive experience that transcends the ordinary.
+                
+                Art is more than a visual medium—it's a dialogue between the artist and the observer, a timeless conversation that resonates with the soul. As you step into our gallery, you’re stepping into a world where each piece is a window into human emotion, cultural heritage, and boundless imagination.
+                
+                Our carefully curated collections are a celebration of diversity—encompassing traditional masterpieces, contemporary works, and innovative art forms that push the boundaries of creativity. Whether you're drawn to the quiet intensity of a landscape, the thought-provoking complexity of modern installations, or the intricate beauty of classical art, there's something here to stir your senses.</p>
+            <p class="heading">The Transformative Power of Art</p>
+            <p class="innerContent">Art shapes the way we perceive the world. It encourages empathy, fosters connection, and inspires introspection. Every piece displayed here tells a story, offers a perspective, and invites you to explore a deeper understanding of the human experience.
+
+                Our mission is to bring these transformative works closer to you—to provide a space where everyone, from art connoisseurs to curious first-timers, can explore the profound impact of visual storytelling.</p>
+            <p class="heading">An Invitation to Explore</p>
+            <p class="innerContent">We invite you to take a step closer to the world of art. Walk through our exhibits, feel the texture of emotion in every piece, and let your imagination take flight. Whether you're here to marvel, to collect, or to simply escape the mundane, our gallery offers an experience unlike any other.
+
+                Let this be your gateway to inspiration and discovery. Together, let's celebrate the universal language of art.</p>
+        
+        
+        </div>
+    
+    </div>
+    
+    <script src="js/imageGalleryIndex.js"></script>
+</body>
+</html>
